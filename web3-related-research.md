@@ -59,9 +59,13 @@ Semi-Fungible Token
 
 [【SFT】NFTの次なるムーブメント「Semi Fungible Token」とは？ERC-3525規格を用い、金融特化NFTを活用する「Solv Protocol」も事例として解説！](https://substack.com/inbox/post/94529671)
 
+<image width="400" src="https://user-images.githubusercontent.com/20992687/210601117-c33d1e2a-1904-495c-ada7-7451a2512739.jpeg">
+https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
 
-
-
+固有のIDに加えてその数量(value)とその種別（slot）を持つのが特徴。
+* valueがあることで同一規格のものを複数生成しなくて良い
+* slotがあることで同一種別での統合、分割が可能
+ 
 
 ## アイデア
 
@@ -71,6 +75,12 @@ Semi-Fungible Token
 
 ## Products
 
+### Solv Protocol
+
+* 金融系NFTの作成&売買ができるプラットフォーム
+* Vesting Voucher, Convertible Voucher, Bond Voucher という3種類のプロダクト（金融商品NFT）の作成とそのマーケットを提供
+* ERC3525を利用している
+ 
 ### [NFT] Hashmasks
 
 [Hashmasks](https://www.thehashmasks.com/)
