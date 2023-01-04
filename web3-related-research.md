@@ -77,6 +77,8 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
 
 ### Solv Protocol
 
+[Solv](https://solv.finance/home)
+
 * 金融系NFTの作成&売買ができるプラットフォーム
 * Vesting Voucher, Convertible Voucher, Bond Voucher という3種類のプロダクト（金融商品NFT）の作成とそのマーケットを提供
 * ERC3525を利用している
