@@ -27,6 +27,25 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
 そしてそこでは中央集権的な仕組みはなくても機能する。
 → 機能はするであろうが、特定事業者があることで得られていたメリットもありそう。それを担保できる仕組みはプロダクトのアイデアになるかもしれない。
 
+## ブロックチェーン
+
+### パラチェーン
+
+> パラチェーンとは、ポルカドットのメインチェーンである “Relay Chain” に接続しているシャードチェーンを指す
+> ブリッジ機能により、イーサリアムやビットコインなど、外部のブロックチェーンをパラチェーンとして接続することができる
+
+[web3Research2023](https://blockchain.bitflyer.com/pdf/web3Research2023.pdf)
+
+
+### Astar
+
+* X-VM
+  * イーサリアムの仮想マシン (EVM)
+  * WebAssembly (WASM) の仮想マシン
+* DApps Staking
+* Layer2 Solution
+
+
 ## ブロックチェーンらしさ
 
 * ユーザーが作成したコンテンツの所有者は作成者自身のものとなる
@@ -35,6 +54,7 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
 * 透明性: 誰でもアクセス可能である
 * 永続性: 管理者がいなくとも動き続ける
 * 厳密性: コントラクトが自動処理を行う
+* データの安全性: 改竄が難しい
 
 [シリコンバレーのエンジニアはＷｅｂ３の未来に何を見るのか](https://www.amazon.co.jp/%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3%E3%83%90%E3%83%AC%E3%83%BC%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AF%EF%BC%B7%EF%BD%85%EF%BD%82%EF%BC%93%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%AB%E4%BD%95%E3%82%92%E8%A6%8B%E3%82%8B%E3%81%AE%E3%81%8B-%E4%B8%AD%E5%B3%B6%E8%81%A1/dp/4815617864)
 
@@ -45,6 +65,11 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
 ## DeFi
 
 ## DAO
+
+スマートコントラクトを用いた仕組みの自動化による
+* 透明性
+* 参加者による民主制の実現
+が可能であることが魅力。
 
 ## NFT
 
@@ -99,6 +124,10 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
   * Stripeのweb3版としてのSlash
 
 ## Products
+
+### [Nuance](https://www.home.nuance.xyz/)
+
+* ブログサービス
 
 ### [Slash](https://coinpost.jp/?p=414201&fbclid=IwAR1pyoUJQ7gfcESS6ucZzZzRIhtESIChbIJYDLigFMPoUjfbmdTLohh2Eyg)
 
