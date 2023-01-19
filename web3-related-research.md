@@ -48,6 +48,12 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
 Layer2: オンチェーンからTXをオフチェーンに渡し、オフチェーン側で渡されたTXを全て実行。その時のStateをstate channelでオンチェーンに戻し検証
 [web3Research2023](https://blockchain.bitflyer.com/pdf/web3Research2023.pdf)
 
+主な開発ツール
+* Swanky-cli
+  * ethereumで言うところのHardhatのwasm開発用
+* OpenBrush
+  * ethereumで言うところのOpenZeppelin
+
 
 ## ブロックチェーンらしさ
 
