@@ -133,6 +133,10 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
   * custodialは保管、保護の、という意味
 * コールドウォレット: オフラインで管理
 
+## Dev tips
+
+* [Web3開発テクニック50選を紹介](https://zenn.dev/nft/articles/web3-dev-techniques)
+
 ## アイデア
 
 * 旅行関連とかお金動かす系は"意味"がありそう
