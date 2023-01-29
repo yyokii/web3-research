@@ -145,6 +145,24 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
   * Stripeのweb3版としてのSlash
 
 ## Products
+ 
+### [VWBL](https://vwbl-protocol.org/)
+
+* viewable
+* [VWBL完全理解書](https://ango-ya.notion.site/VWBL-483519de492d4ce09559f2a20069a77b)
+* デジタルコンテンツ自体に価値がある場合は見れない、ということも大事になる
+* プレビューは誰でも見れるがNFT持っている人だけコンテンツを見れる
+* VWBL = NFT + アクセスコントロール
+* ビジネスモデル
+  * コンテンツ流通の省コスト化
+    * 手売りのような1:1の仕組み、手数料が余計にない
+  * コンテンツ管理の省コスト化
+    * 認証管理機能の開発が必要なくなる
+  * 収益ポイント
+    * 鍵管理ネットワーク手数料
+    * トークンエコノミクス
+    * ガス代
+* 閲覧件の提供も可能
 
 ### [Fully On-Chain](https://fullyonchain.xyz/)
 
