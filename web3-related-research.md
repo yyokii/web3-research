@@ -126,6 +126,17 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
 * valueがあることで同一規格のものを複数生成しなくて良い
 * slotがあることで同一種別での統合、分割が可能
 
+## Wallet
+
+* ウォレット
+  * アドレスとその秘密鍵が集まったもの（アドレス:秘密鍵 = 1:1） 
+* ホットウォレット: オンラインで管理
+  * カストディアルウォレット: 第三者が秘密鍵を管理
+  * ノンカストディアルウォレット: ユーザー自身が秘密鍵を管理
+  * custodialは保管、保護の、という意味
+* コールドウォレット: オフラインで管理
+
+
 ## Verifiable Credential
 内容の検証がオンラインで可能な自己主権型のデジタル証明。  
 [発行者](Issuer) が【保持者】(Holder) に対して発行した証明書を第三者である【検証者】が検証することができるしくみ。
@@ -147,15 +158,25 @@ https://whitepaper.sftlabs.io/SFT%20Whitepaper.pdf より
 * [Verifiable Credentials と 譲渡不可NFTを組み合わせたデジタル賞状の発行について](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/b2cdde1e-f172-4277-9204-20bd006660f1/415114c7/20221021_meeting_web3_outline_01.pdf)
 * [Verifiable Credentialsとは? -part.1 — 0xKantaro](https://mirror.xyz/kantaro.eth/jhpZpWcF697BKjeGGqlPA0IIMfsuJPCpLjfPC5oiLys)
 
-## Wallet
+## DID
 
-* ウォレット
-  * アドレスとその秘密鍵が集まったもの（アドレス:秘密鍵 = 1:1） 
-* ホットウォレット: オンラインで管理
-  * カストディアルウォレット: 第三者が秘密鍵を管理
-  * ノンカストディアルウォレット: ユーザー自身が秘密鍵を管理
-  * custodialは保管、保護の、という意味
-* コールドウォレット: オフラインで管理
+![スクリーンショット 2023-02-28 0 22 15](https://user-images.githubusercontent.com/20992687/221610048-afcc6c1c-2ef0-4fff-931d-e7e728a59bed.png)  
+引用: [DID(分散型ID)とは？概要説明から活用事例まで](https://zenn.dev/sakazuki_xyz/articles/did-introduction)
+
+DID(Decentralized Identifier)
+グローバル、ユニークかつ永続性のあるID。
+ブロックチェーンなどの暗号技術を用いることにより一切の組織または政府から独立してユーザーが作成、所有、管理できるIDとなる。
+Verifiable Credentialにおける、保有者/発行者IDで利用することがある。
+
+構造: did:[method-name]:[method-specific-id]
+
+- did
+  - URIスキームのID
+- DID method
+  - DIDを運用する仕組みの種類
+    - https://w3c.github.io/did-spec-registries/#did-methods
+- DID Method-Specific Identifier
+  - DID Methodの中の特定のIDです
 
 ## Products
  
