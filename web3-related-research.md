@@ -178,6 +178,9 @@ Verifiable Credentialにおける、保有者/発行者IDで利用すること�
 - DID Method-Specific Identifier
   - DID Methodの中の特定のIDです
 
+### 参考
+* [2021-0617-IEICE-DPF-shigeya](https://www.ieice.org/~dpf/wp-content/uploads/2021/04/2021-0617-IEICE-DPF-shigeya.pdf)
+
 ## Products
  
 ### [VWBL](https://vwbl-protocol.org/)
