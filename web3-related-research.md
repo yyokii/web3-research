@@ -179,7 +179,7 @@ Verifiable Credentialにおける、保有者/発行者IDで利用すること�
   - DID Methodの中の特定のIDです
 
 ### 参考
-* [2021-0617-IEICE-DPF-shigeya](https://www.ieice.org/~dpf/wp-content/uploads/2021/04/2021-0617-IEICE-DPF-shigeya.pdf)
+* [分散型IDのアプリケーション応用 2021-0617-IEICE-DPF-shigeya](https://www.ieice.org/~dpf/wp-content/uploads/2021/04/2021-0617-IEICE-DPF-shigeya.pdf)
 
 ## Products
  
