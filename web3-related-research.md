@@ -181,6 +181,20 @@ Verifiable Credentialにおける、保有者/発行者IDで利用すること�
 * [分散型IDのアプリケーション応用 2021-0617-IEICE-DPF-shigeya](https://www.ieice.org/~dpf/wp-content/uploads/2021/04/2021-0617-IEICE-DPF-shigeya.pdf)
 
 ## Products
+
+### [Krebit - your Reputation Passport for Better Job Matching](https://testnet.krebit.id/#/)
+
+> Krebitは、off-chainの証明書などをDIDに紐付けてCeramic Network上に保存し、オンライン上で活用可能なVerifiable Credentials として検証し発行するプロトコルです。
+
+>  あるSさんは、自分の本名が「Satoshi Nakamoto」であることを、オンライン上で証明したいと考えています。ただし、本名以外の個人情報は広く公開したくありません。そこで、まずKrebit上で**「私(Subject)の本名(Property)はSatoshi Nakamotoである(value)」**というClaimを作成します。そしてClaimの検証を行ってもらうために、**KrebitDAOに認証された証人(Attestator, 検証者兼発行者)**に対して、免許証画像をp2p暗号化チャットを通して証拠として送ります。
+>
+> 検証リクエストを受け取った**証人**は、Claim内容と証拠である免許証画像を確認し、検証結果を登録します。Claimが正しいと判断した場合には、「Trust Level」(どれくらい信用できるかの%)とステーキング用のKRBトークンと共に署名を行い、Verifiable Credentialsを発行します。
+>
+> これにより、Sさんはオンライン上で個人情報を晒すことなく、**「私の本名はSatoshi Nakamotoである」**と証明することができるようになりました。このVerifiable Credentialsは、プラットフォームに制限なく他のdAppなどに自由に持っていくことができます。
+>
+> またVerifiable Credentialsが発行されると、Subjectであるユーザーと発行者である証人双方に報酬が支払われます。報酬はTrust Levelなどの指標を元に算出されています。
+
+https://mirror.xyz/kantaro.eth/kSK-HyUiig5YLut4cfMwxp4hLD3uEqs1brIbixMyOHU
  
 ### [VWBL](https://vwbl-protocol.org/)
 
