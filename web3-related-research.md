@@ -44,7 +44,7 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
   * スマートコントラクトの実行コードを保持しているもの
   * コントラクトアカウントには秘密鍵が存在しないため、トランザクションを開始することはできない。つまり、コントラクトアドレスを起点とするイーサの送金はできない。（EOAを起点に、コントラクトアカウントを経由して別のEOAへイーサを送金することは可能）
 
-[etherを採掘する - Ethereum入門](https://book.ethereum-jp.net/first_use/mining_ether)
+[etherを採掘する - Ethereum入門](https://book.ethereum-jp.net/first_use/mining_ether)  
 [【レッスン②】イーサリアムのアカウントとトランザクション構造 | 【PoL(ポル)】仮想通貨・ブロックチェーンを基礎から学習するならPoL(ポル)](https://pol.techtec.world/blockchain-usecase/ethereum/ethereum-account-transaction)
 
 ### パラチェーン
