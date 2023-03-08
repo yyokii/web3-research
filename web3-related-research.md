@@ -47,6 +47,24 @@ web3の定義は様々あるようだが「Gavin Woodの定義」が最初の意
 [etherを採掘する - Ethereum入門](https://book.ethereum-jp.net/first_use/mining_ether)  
 [【レッスン②】イーサリアムのアカウントとトランザクション構造 | 【PoL(ポル)】仮想通貨・ブロックチェーンを基礎から学習するならPoL(ポル)](https://pol.techtec.world/blockchain-usecase/ethereum/ethereum-account-transaction)
 
+#### AA
+
+コントラクトを最上位アカウント（トランザクションの起点となり、その手数料を支払うことができるアカウント）にすること。
+
+現在 Ethereum においてトランザクションの起点となれるのは EOA のみ。なぜなら、「トランザクションは、EOA による ECDSA 電子署名を基準にした検証をパスしないとブロックに含めることができない」ということがプロトコルとして規定されているから。
+その制約がAAによりなくなる。
+
+EOAでの資産管理
+
+* 秘密鍵を紛失したり盗難されたりしたら資産流出
+* EOA ベースの世界では ECDSA 電子署名が必須となっているが、セキュリティの観点だと、今後その代わりにポスト量子暗号ベースの電子署名アルゴリズムなどを採用できることが望ましい。またソーシャルリカバリーといった機能の実装が可能になる。
+
+ウォレットの文脈における AA は、これらの課題を解決するため、EOA 縛りを解放し、よりセキュアな資産管理を可能にしようとしている。
+
+[AA（Account Abstraction）の先にある、コントラクトウォレット中心の世界](https://zenn.dev/sivira/articles/d041f1ac44ca1e)  
+[Account Abstractionの誤解と真実](https://zenn.dev/inaridiy/articles/09429120aaba43)
+
+
 ### パラチェーン
 
 > パラチェーンとは、ポルカドットのメインチェーンである “Relay Chain” に接続しているシャードチェーンを指す
